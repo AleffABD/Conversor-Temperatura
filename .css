@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  text-align: center;
+  border-radius: 8px;
+  background-color: #033;
+  padding: 20px;
+  height: 230px;
+  width: 450px;
+  margin-top: 25px;
+}
+
+#input {
+  display: block;
+  padding: 10px;
+}
+
+#titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 10px;
+  color: aliceblue;
+}
+
+#icone {
+  font-size: 45px;
+  color: #f9f5f5;
+  margin-left: 10px;
+}
+
+#fahrenheit, #celsius {
+  display: block;
+  margin: 10px auto;
+  font-size: x-large;
+}
+
+#convert, #clean {
+  margin-top: 10px;
+  font-size: large;
+}
+
+#clean:hover, #convert:hover {
+  background-color: black;
+  color: white;
+}
+
+    
